@@ -26,6 +26,7 @@ set foldnestmax=2
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme gruvbox
+set background=dark
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Tmux
