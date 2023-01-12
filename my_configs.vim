@@ -9,7 +9,8 @@ set mouse=a
 " Avoid using old vi
 set nocompatible
 " Avoids wrapping long sentences
-set nowrap 
+"set nowrap 
+set nolinebreak
 " Enable syntax processing
 syntax enable 
 
@@ -21,6 +22,11 @@ set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldmethod=syntax   " mode
 set foldnestmax=2
+
+" Wrap 
+set cursorline          " highlight current line"
+set wildmenu            " visual autocomplete for command menu
+set lazyredraw          " redraw only when we need to."
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
